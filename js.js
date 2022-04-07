@@ -1,4 +1,4 @@
-/*/var nom = prompt("ingrese su nombre");
+var nom = prompt("ingrese su nombre");
 function decirNombre(nombre){
     nombre || (nombre =  "User");
     alert("mi nombre es  "+nombre);
@@ -8,7 +8,7 @@ function decirNombre(nombre){
             alert("el nombre no es valido");
         }
 }
-decirNombre(56);*/
+decirNombre(56);
 
 
 /*var n1 = prompt("ingrse el primer numero");
@@ -29,7 +29,7 @@ mostrarCalculo()*/
 
 //objectos
 
-var objeto = {
+/*var objeto = {
     nombre: "euclides",
     apellido: "perez",
     edad: 25,
@@ -39,4 +39,4 @@ var objeto = {
     },
     hola: function hola (){alert("hola")},
 }
-console.log( objeto.nombre +""+ objeto.apellido +""+ objeto.edad);
+console.log( objeto.nombre +""+ objeto.apellido +""+ objeto.edad);*/
