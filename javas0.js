@@ -1,17 +1,17 @@
-var nom = prompt("ingrese su nombre");
-function decirNombre(nombre){
-    nombre || (nombre =  "User");
-    alert("mi nombre es  "+nombre);
-        if(typeof nombre === "string"){
-            alert("su nombre es "+ nombre)
-        }else{
-            alert("el nombre no es valido");
-        }
-}
-decirNombre(56);
+// var nom = prompt("ingrese su nombre");
+// function decirNombre(nombre){
+//     nombre || (nombre =  "User");
+//     alert("mi nombre es  "+nombre);
+//         if(typeof nombre === "string"){
+//             alert("su nombre es "+ nombre)
+//         }else{
+//             alert("el nombre no es valido");
+//         }
+// }
+// decirNombre(56);
 
 
-/*var n1 = prompt("ingrse el primer numero");
+var n1 = prompt("ingrse el primer numero");
 var n2 = prompt("ingrse el segundo numero ");
 var resultado
 
@@ -25,7 +25,7 @@ var resulttado = calcularNumeros(n1,n2)
 function mostrarCalculo(){
     alert(resultado)
 }
-mostrarCalculo()*/
+mostrarCalculo()
 
 //objectos
 
