@@ -6,6 +6,6 @@ function saludo(nom){
 }
 var nombre = saludo(texto);
 function mostrarSaludo(){
-    alert("hola" + nombre)
+    alert(nombre)
 }
-function(mostrarSaludo)
+function(mostrarSaludo);
